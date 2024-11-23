@@ -2,19 +2,15 @@
   "name": "webflow-code-workflow-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve",
-    "build": "esbuild index.js --bundle --minify --outfile=dist/script.js --watch"
+    "build": "esbuild src/home.js src/about.js src/work.js --bundle --minify --outdir=dist --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.23.0",
     "serve": "^14.2.3"
-  },
-  "dependencies": {
-    "gsap": "file:gsap-bonus.tgz"
   }
 }
