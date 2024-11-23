@@ -1,1 +1,1 @@
-(()=>{console.log("This is work");})();
+(()=>{alert("Work Page");})();
