@@ -2,3 +2,5 @@
 node_modules
 gsap-bonus.tgz
 src
+utils
+ff.js
